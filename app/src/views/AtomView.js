@@ -92,18 +92,25 @@ define(function(require, exports, module) {
 
     function _addParticleButton() {
       this.addButton = new Surface({
-        size: [50, 50],
         content: 'Add Particle',
         properties: {
-          backgroundColor: 'green'
+          backgroundColor: 'green',
+          textAlign: 'center',
+          padding: '15px',
+          border: '2px solid black',
+          cursor: 'pointer'
         }
       });
 
       // Not enough time to position button properly
       var addParticleButtonModifier = new StateModifier({
+        size: [200, 50],
+        origin: [0.5, 0.5],
+        align: [0.5, 0.6],
+
       });
       
-      this.add(this.addButton);
+      this.add(addParticleButtonModifier).add(this.addButton);   
     }
 
     // Clicking button adds particle/satellite to planet

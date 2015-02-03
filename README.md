@@ -22,6 +22,9 @@ $ npm install -g grunt-cli
 $ open app/index.html
 ```
 
+### Screenshots
+![alt text](/imgs/one_particle.png "One Satellite")
+
 ### Todo's
 
  - Write Tests
