@@ -23,7 +23,8 @@ $ open app/index.html
 ```
 
 ### Screenshots
-![alt text](/imgs/one_particle.png "One Satellite")
+![alt text](/imgs/one_satellites.png "One Satellite")
+![alt text](/imgs/two_satellites.png "One Satellite")
 
 ### Todo's
 
